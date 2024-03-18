@@ -40,6 +40,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: 500;
+    background-color: var(--dark-color);
 }
 
 ul {
@@ -98,10 +99,46 @@ img {
     cursor: pointer;
 }
 
+main{
+    background-color: var(--dark-color);
+}
+
 .inicio{
+    width: 100%;
+    background-color: var(--dark-color);
+}
+
+.centraliza{
+    margin-top: 100px;
     display: block;
+    text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.centralizar-na-força{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#title-inicio{
+    font-size: 40px;
+    color: var(--white-color);
+}
+
+#img-inicio{
+    height: 500px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#text-inicio{
+    text-align: center;
+    width: 650px;
+    color: var(--white-color);
 }
 
 /*===== NAV =====*/
