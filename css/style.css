@@ -134,6 +134,7 @@ main{
     width: 700px;
     object-fit: cover;
     border-radius: 25px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.436);
 }
 
 #text-inicio{
@@ -159,6 +160,7 @@ main{
     height: 370px;
     object-fit: cover;
     border-radius: 25px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.436);
 }
 
 .text-info{
@@ -178,7 +180,8 @@ main{
     padding: 10px 20px 10px 20px;
     border-color: #E2FF65;
     border-radius: 10px;
-    
+    font-weight: bold;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.436);
 }
 
 .time-container{
@@ -197,6 +200,7 @@ main{
 .container-time-p{
     background-color: var(--white-color);
     border-radius: 20px;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.436);
 }
 
 .img-time img{
@@ -210,6 +214,44 @@ main{
     display: block;
     margin-left: 20px;
 }
+
+.container-services-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-services{
+    color: #E2FF65;
+    text-align: center;
+}
+
+.container-services{
+    background-color: #8CC3E1;
+    width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.preco{
+    display: flex;
+}
+
+#cents{
+    margin-top: 40px;
+}
+
+.btn-services{
+    margin-top: 30px;
+    background-color: #E2FF65;
+    color: var(--dark-color);
+    padding: 10px 20px 10px 20px;
+    border-color: #E2FF65;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
 /*===== NAV =====*/
 @media screen and (max-width: 768px) {
     .nav {
@@ -402,4 +444,3 @@ main{
         margin-left: auto;
         margin-right: auto;
     }
-}
